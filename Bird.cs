@@ -11,7 +11,7 @@ namespace BIrd_app_for_traning_with_overriding_classes
         public static Random Randomizer = new Random();
         public virtual Egg[] LayEggs(int numberOfEggs)
         {
-            Console.Error.WriteLine("Metoda Bird.LayEggs nie powinna być wywoływana");4
+            Console.Error.WriteLine("Metoda Bird.LayEggs nie powinna być wywoływana");
             return new Egg[0];
         }
 
